@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+}
+.nav-item a{
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all .5s;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-brand{
+    width: 100px;
+    height: 50px;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: aliceblue;
+    border-radius: 0px 20px 20px 0px;
+    transition: all .5s;
+}
+.btn1:hover{
+    background-color: rgb(11, 125, 11);
+
+}
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.bi-bag-check:hover{
+    color: rgb(20, 219, 20);
+}
+/* main */
+.main{
+    background: url(../foodimags/imgs/fr1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.pra{
+    font-size: 18px;
+    color:grey;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:rgb(20, 219, 20); 
+    border-radius: 50px;
+    transition: all .5s;
+}
+.mbtn1:hover{
+    background-color:rgb(8, 103, 8); 
+
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    background-color: transparent;
+    transition: all .5s;
+}
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+    border-radius: 50px;
+}
+/* about */
+.about{
+    background: url(../foodimags/imgs/abut.jpg) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+
+}
+.about h2{
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.pra{
+    font-size: 18px;
+    color:grey;
+}
+/* welcome */
+.welcome{
+    background-color: rgb(20, 219, 20);
+}
+.welcome h2{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.welcome p:nth-child(1){
+    /* font-size: 18px; */
+    font-weight: 500;
+
+}
+.welcome .pra{
+    color: aliceblue;
+        font-size: 14px;
+
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+.welcome .card{
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color:rgb(20, 219, 20); 
+}
+.card h3{
+    font-weight: lighter;
+    padding: 10px 0;
+}
+/* products */
+.products h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color:black ;
+
+}
+.products p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    color:black ;
+
+
+}
+.pra{
+    font-size: 15px;
+    color:black ;
+
+}
+/* star */
+.star{
+    text-align: end;
+    color: orange;
+}
+.products .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.products .card-body{
+    border: 1px dashed  rgb(244, 237, 224);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all .5s;
+    border: none;
+}
+.btnc:hover{
+    color: rgb(20, 219, 20);
+    background-color: transparent;
+    border: 1px solid rgb(20, 219, 20);
+}
+/* =========================discount */
+.discount{
+    background-color: rgb(20, 219, 20);
+    color: aliceblue;
+}
+
+.dbtn{
+    height: 50px;
+    outline: none;
+    width: 75%;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all .5s;
+}
+.dbtn:hover{
+    background-color: rgb(245, 233, 211);
+
+}
+.store h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color:black ;
+
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    color:black ;
+
+
+}
+.pra{
+    font-size: 15px;
+    color:grey ;
+
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+/* =================seller */
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+/* contact */
+.contact{
+    background: url(../foodimags/imgs/cont.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.contact h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact .dbtn{
+    height: 50px;
+    width: 65%;
+}
+/* footer */
+.footer{
+    background-color: rgb(50, 49, 49);
+}
+.info{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 10px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.info:hover{
+    background-color:rgb(20, 219, 20);
+    border: none;
+}
+.info i{
+    font-size: 20px;
+}
+.footer p{
+    color: rgb(20, 219, 20);
+}
